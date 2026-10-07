@@ -1,0 +1,31 @@
+{
+  "version": "2.1",
+  "network_target": "Polygon Mainnet Fork",
+  "external_deposit_usdc": 1,
+  "canonical_assets": [
+    "WETH",
+    "WPOL",
+    "USDC"
+  ],
+  "internal_assets": [
+    "SYNA",
+    "SYNR",
+    "SUSD"
+  ],
+  "gross_dex_edge": 0.03,
+  "base_utilization": 0.9,
+  "qe_gain": 0.35,
+  "external_fee_flow_per_cycle": 0.001,
+  "bridge_spread": 0.005,
+  "capacity_x_initial_per_cycle": 5,
+  "dex_fee": 0.003,
+  "bridge_fee": 0.0008,
+  "gas_proxy": 0.00015,
+  "mev_proxy": 0.00025,
+  "slippage_k": 0.004,
+  "reinvestment": 1,
+  "dividend_target_working_hardnav": 5.35,
+  "modeled_steady_dividend_per_cycle": 0.090175,
+  "internal_mint_counts_as_hardnav": false,
+  "self_induced_edge_counts_as_alpha": false
+}
